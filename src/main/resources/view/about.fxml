@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="324.0" prefWidth="434.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.AboutController">
+   <children>
+      <Label alignment="CENTER" layoutX="174.0" layoutY="43.0" text="About" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="112.0" fitWidth="131.0" layoutX="161.0" layoutY="106.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/text-editor.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="201.0" layoutY="258.0" text="v 0.1.0" />
+   </children>
+</AnchorPane>
